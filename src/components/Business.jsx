@@ -1,7 +1,8 @@
 import React from "react";
+import { features } from "../constants";
+import styles, { layout } from "../style";
+import Button from "./Button";
 
-const Business = () => {
-  return <div></div>;
-};
+const Business = () => <section></section>;
 
 export default Business;
