@@ -24,6 +24,7 @@ const Business = () => (
     id="features"
     className={`${layout.section} ${styles.flexCenter} mb-20`}
   >
+    {/* Content Section */}
     <div className={layout.sectionInfo}>
       <h2
         className={`${styles.heading2} xs:text-[30px] sm:text-[50px] xs:leading-[50px] sm:leading-[76px]`}
@@ -40,6 +41,7 @@ const Business = () => (
       <Button styles="mt-10" />
     </div>
 
+    {/* Interactive Cards Section */}
     <div className={`${layout.sectionImg} flex-col `}>
       {features.map((feature, idx) => (
         <FeatureCard

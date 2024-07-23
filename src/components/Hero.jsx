@@ -47,16 +47,16 @@ const Hero = () => (
 
     {/* IMAGE SECTION */}
     <div
-      className={`md:w-[669px] flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      className={`md:w-[669px] flex ${styles.flexCenter} md:my-0 my-10 relative aspect-[4/3]`}
     >
       <img
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-full h-full object-contain relative z-[5]"
         src={robot}
         alt="Robot"
       />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 blue__gradient" />
-      <div className="absolute z-[0]  right-20 bottom-20 blue__gradient" />
+      <div className="absolute z-[0] right-20 bottom-20 blue__gradient" />
     </div>
   </section>
 );

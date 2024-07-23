@@ -4,6 +4,7 @@ import styles from "../style";
 
 const Billing = () => (
   <section className={`${styles.flexCenter} md:flex-row flex-col mb-40`}>
+    {/* Image Section */}
     <div className={` w-[100%] z-[4] relative`}>
       <img
         className={` m-auto just object-contain relative md:w-[100%] w-[80%] md:mb-0 mb-10`}
@@ -16,6 +17,7 @@ const Billing = () => (
       <div className="blue__gradient z-[0] w-[10%] h-[10%] absolute bottom-10" />
     </div>
 
+    {/* Content Section */}
     <div className="text-white w-[100%] md:ml-20">
       <div className="">
         <h2
@@ -30,12 +32,7 @@ const Billing = () => (
         </p>
       </div>
       <div className={`flex flex-row justify-items-start mt-5`}>
-        <img
-          className="cursor-pointer"
-          className="mr-5"
-          src={apple}
-          alt="Apple logo"
-        />
+        <img className="cursor-pointer mr-5" src={apple} alt="Apple logo" />
         <img className="cursor-pointer" src={google} alt="Google logo" />
       </div>
     </div>

@@ -4,8 +4,11 @@ import styles from "../style";
 import { quotes } from "../assests";
 
 const Testimonials = () => (
-  <section className={`${styles.marginY} `}>
-    <div className={`${styles.flexCenter} w-[100%] mb-20 flex-col md:flex-row`}>
+  <section className={`${styles.marginY}`}>
+    {/* Heading Section */}
+    <div
+      className={`${styles.flexCenter} w-[100%] mb-20 flex-col md:flex-row md:mt-40`}
+    >
       <h2
         className={` ${styles.heading2} xs:text-[30px] sm:text-[50px] xs:leading-[50px] sm:leading-[76px]`}
       >
@@ -20,6 +23,7 @@ const Testimonials = () => (
       </p>
     </div>
 
+    {/* Testimonial Section */}
     <div className={`${styles.flexCenter} flex-col md:flex-row z-[3] relative`}>
       {feedback.map((data, idx) => (
         <div
@@ -45,6 +49,8 @@ const Testimonials = () => (
           </div>
         </div>
       ))}
+
+      {/* Background Gradient */}
       <div className="blue__gradient z-[1] w-[15%] h-[60%] absolute top-10 right-0" />
       <div className="pink__gradient z-[0] w-[15%] h-[20%] absolute bottom-10 right-0" />
       <div className="blue__gradient z-[1] w-[30%] h-[90%] absolute bottom-10 right-0" />
