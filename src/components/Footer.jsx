@@ -47,7 +47,7 @@ const Footer = () => (
     <div
       className={`text-white flex justify-between px-20 flex-col md:flex-row md:text-left text-center`}
     >
-      <p className="">Copyright 2021 HooBank. All Rights Reserved.</p>
+      <p className="">Copyright 2024 HooBank. All Rights Reserved.</p>
       <div className="flex flex-row mt-10 md:mt-0 items-center justify-center">
         {/* Social Links */}
         <img

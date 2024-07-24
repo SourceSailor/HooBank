@@ -34,7 +34,7 @@ const Hero = () => (
           Payment Method
         </h1>
 
-        <div className="ss:flex hidden md:mr-4 mr-0 ss:hidden sm:block">
+        <div className="sm:flex hidden md:mr-4 mr-0 ss:hidden sm:block">
           <GetStarted />
         </div>
       </div>
